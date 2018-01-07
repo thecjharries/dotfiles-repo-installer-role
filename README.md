@@ -1,7 +1,5 @@
 # `dotfiles-role-repo-installer`
-# `dotfiles-role-repo-installer`
 
-[![Build Status](https://travis-ci.org/thecjharries/dotfiles-role-repo-installer.svg?branch=master)](https://travis-ci.org/thecjharries/dotfiles-role-repo-installer)
 [![Build Status](https://travis-ci.org/thecjharries/dotfiles-role-repo-installer.svg?branch=master)](https://travis-ci.org/thecjharries/dotfiles-role-repo-installer)
 
 
@@ -34,12 +32,8 @@ src_path
 ```yml
 ---
 - src: git+https://github.com/thecjharries/dotfiles-role-git.git
-- src: git+https://github.com/thecjharries/dotfiles-role-git.git
-- src: git+https://github.com/thecjharries/dotfiles-role-common-software.git
 - src: git+https://github.com/thecjharries/dotfiles-role-common-software.git
 - src: git+https://github.com/thecjharries/dotfiles-role-package-installer.git
-- src: git+https://github.com/thecjharries/dotfiles-role-package-installer.git
-- src: git+https://github.com/thecjharries/dotfiles-role-generic-template.git
 - src: git+https://github.com/thecjharries/dotfiles-role-generic-template.git
 ```
 
@@ -50,7 +44,6 @@ src_path
 - hosts: all
 
   roles:
-    - role: dotfiles-role-repo-installer
     - role: dotfiles-role-repo-installer
       remote_url: https://github.com/github/gitignore
       src_path: /opt/gitignore
