@@ -1,7 +1,7 @@
 # `dotfiles-role-repo-installer`
 
 [![Build Status](https://travis-ci.org/thecjharries/dotfiles-role-repo-installer.svg?branch=master)](https://travis-ci.org/thecjharries/dotfiles-role-repo-installer)
-[![GitHub release](https://img.shields.io/github/release/thecjharries/dotfiles-role-repo-installer.svg)](https://github.com/thecjharries/dotfiles-role-repo-installer)
+[![GitHub tag](https://img.shields.io/github/tag/thecjharries/dotfiles-role-repo-installer.svg)](https://github.com/thecjharries/dotfiles-role-repo-installer)
 
 
 ## Requirements
