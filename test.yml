@@ -1,0 +1,8 @@
+---
+- hosts: localhost
+  connection: local
+
+  roles:
+    - role: "{{ playbook_dir }}"
+      remote_url: https://github.com/github/gitignore
+      src_path: /opt/gitignore
