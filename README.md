@@ -17,6 +17,7 @@ repo_owner: root
 repo_group: root
 repo_become: yes
 recursive_pull: no
+desired_version: HEAD
 ```
 
 Additionally, these variables must be set:

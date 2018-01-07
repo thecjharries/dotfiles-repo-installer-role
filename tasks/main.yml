@@ -13,6 +13,7 @@
   git:
     repo: "{{ remote_url }}"
     dest: "{{ src_path }}"
+    version: "{{ desired_version }}"
     clone: yes
     update: yes
     recursive: "{{ recursive_pull }}"
